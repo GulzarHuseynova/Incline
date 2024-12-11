@@ -1,0 +1,588 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 100vh;
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(https://yevgenysim-turkey.github.io/incline/assets/img/42.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+       
+}
+.menu{
+    width: 80%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    margin-left: 100px;
+}
+.sol{
+    display: flex;
+    padding-left: 80px;
+ 
+
+}
+.sol h1{
+    width: 50%;
+    font-size: 20px;
+    color: white;
+}
+.icons{
+    width: 200px;
+    font-size: 20px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.sag{
+    width:100%;
+    
+}
+.sag ul li{
+    display: inline-block;
+}
+.sag ul .border{
+    border-left: 1px solid rgb(78, 76, 76);
+
+}
+.sag ul li a{
+    text-decoration: none;
+    color: white;
+    padding-left: 30px;
+}
+/* header .hr{
+    width: 100%;
+    height: 30px;
+    background-color: gray;
+} */
+.basliq{
+    width: 60%;
+    height: 300px;
+    text-align: center;
+    margin: 250px auto;
+}
+.basliq h2{
+    color: grey;
+    font-size: 15px;
+}
+.basliq h1{
+    font-size: 30px;
+    color: white;
+}
+.basliq p{
+    color: gray;
+    font-size: 25px;
+}
+.basliq a{
+    text-decoration: none;
+    border: 1px solid orange;
+    color: white;
+    padding: 10px 10px;
+    display: inline-block;
+}
+.landing{
+    width: 100%;
+    height: 600px;
+    text-align: center;
+    margin-top: 80px;
+
+}
+.text{
+    width: 60%;
+    margin: auto;
+}
+.text p{
+    color: gray;
+    padding-top: 30px;
+    font-size: 25px;
+    margin-bottom: 40px;
+}
+
+.photos{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.photo1 img{
+    width: 400px;
+    height: 250px;
+    margin-bottom: 40px;
+}
+.photo1{
+    width: 32.3%;
+}
+.photo1:hover img{
+    transform: scale(1.1);
+    transform: translateY(-20px);
+    box-shadow: 0 1rem 2rem -1rem rgba(0,0,0,0.75);
+}
+.photo1 h1 a{
+    width: 60%;
+    padding-left: 15px;
+    text-align: start;
+    font-size: 25px;
+    color: black;
+}
+.photo1 h1 a span{
+    background-color: red;
+    color: white;
+}
+.photo1 p a{
+    width: 60%;
+    color: gray;
+    font-size: 20px;
+    padding-bottom: 30px;
+   
+}
+.photo1 a{
+    text-decoration: none;
+    display: inline-block;
+    align-items: start;
+
+}
+.pages{
+    width: 100%;
+    height: 600px;
+    background-color: rgb(246, 246, 246);
+    position: relative;
+    margin-top: 800px;
+}
+.page1{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    padding-top: 80px;
+}
+.page1 h1{
+    color: black;
+    font-size: 30px;
+}
+.page1 p{
+    color: gray;
+    font-size: 20px;
+}
+.page2{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+    margin-left: 50px;
+}
+.page3 img{
+    width: 80%;
+}
+.page3  h1 a{
+    width: 60%;
+    font-size: 25px;
+    color: black;
+    padding-top: 30px;
+    text-decoration: none;
+}
+.page3 p a{
+    width: 60%;
+    color: gray;
+    font-size: 20px;
+    padding-bottom: 50px;
+    text-decoration: none;
+}
+.components{
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    margin-top: 150px ;
+}
+.components p{
+    width: 70%;
+    margin: auto;
+    font-size: 30px;
+    text-align: start;
+}
+.components h5{
+    font-size: 20px;
+    color: rgb(81, 77, 77);
+    text-align: start;
+    padding-left: 230px;
+}
+.features{
+    width: 100%;
+    height: 600px;
+    background-color: rgb(42, 41, 41);
+}
+.features1{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+.features1 h1{
+    color: rgb(252, 249, 249);
+}
+.features1 p{
+    width: 70%;
+    margin: auto;
+    padding-top: 40px;
+    font-size: 30px;
+    color: gray;
+}
+.features2{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 100px;
+}
+.features3{
+  margin-left: 100px;
+}
+.features3 i{
+    width: 30%;
+    margin: auto;
+    text-align: center;
+    color: orange;
+    font-size: 30px;
+    margin-left: 80px;
+    padding-bottom: 40px;
+}
+.features3 h1{
+    width: 70%;
+    text-align: center;
+    padding-bottom: 30px;
+    color: white;
+    font-size: 25px;
+}
+.features3 p{
+    width: 90%;
+    color: gray;
+    font-size: 20px;
+}
+.document{
+    width: 100%;
+    height: 600px;
+    background-color: white;
+    display: flex;
+   
+}
+.sol1{
+    width: 40%;
+    padding-left: 150px;
+    margin: 100px auto;
+    display: block;
+    margin-left: 50px;
+}
+.sol1 h1{
+    color: black;
+    font-size: 30px;
+    padding-bottom: 40px;
+}
+.sol1 ul li{
+    display:inline-block;
+    color: rgb(104, 99, 99);
+    list-style: none;
+    font-size: 25px;
+    padding-bottom: 10px;
+    
+}
+.sol1 a{
+    width: 35%;
+    height: 20px;
+    font-size: 20px;
+    color: black;
+    display:block;
+    text-decoration: none;
+    border: 1px solid orange;
+    padding: 15px 20px;
+    padding-bottom: 40px;
+    margin-top: 25px;
+}
+.sol1 a:hover{
+    color: orange;
+}
+.sag1{
+    width:30%;
+    height: 250px;
+    background-color: rgb(242, 193, 102);
+    margin: auto;
+    position: relative;
+    
+}
+.sag1 img{
+    top: -120px;
+    position: relative;
+    width: 100%;
+    height: 500px;
+    right: 80px;
+    padding-left: 200px;
+}
+.solution{
+    width: 100%;
+    height: 800px;
+    background-color: rgb(249, 246, 246);
+}
+.solution1{
+    width: 60%;
+    margin: 50px auto;
+    text-align: center;
+}
+.solution1 h1{
+    text-align: center;
+    color: black;
+    padding-top: 50px;
+}
+.solution1 p{
+    width: 60%;
+    margin: auto;
+    color: grey;
+    padding-top: 30px;
+    text-align: center;
+    font-size: 25px;
+}
+.solution2{
+    display: flex;
+    margin-left: 150px;
+    align-items: center;
+}
+.solution3{
+    width: 30%;
+    height: 500px;
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(https://yevgenysim-turkey.github.io/incline/assets/img/24.jpg);
+    
+}
+.solutions{
+    padding-left: 40px;
+    padding-top: 300px;
+}
+.solution3 i{
+    color: orange;
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+.solution3 h1{
+    color: rgb(243, 239, 239);
+    padding-bottom: 20px;
+}
+.solution3 p{
+    width: 80%;
+    color: rgb(206, 202, 202);
+}
+.solution4{
+    width: 30%;
+    height: 530px;
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(https://yevgenysim-turkey.github.io/incline/assets/img/22.jpg);
+  
+}
+.solution4 i{
+    color: orange;
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+.solution4 h1{
+    color: rgb(243, 239, 239);
+    padding-bottom: 20px;
+}
+.solution4 p{
+    width: 70%;
+    color: rgb(206, 202, 202);
+}
+.solution5{
+    width: 30%;
+    height: 500px;
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(https://yevgenysim-turkey.github.io/incline/assets/img/15.jpg);
+
+}
+.solution5 i{
+    color: orange;
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+.solution5 h1{
+    color: rgb(243, 239, 239);
+    padding-bottom: 20px;
+}
+.solution5 p{
+    width: 70%;
+    color: rgb(206, 202, 202);
+}
+.option{
+    width: 100%;
+    height: 550px;
+    background-color: white;
+}
+.option1{
+    width: 60%;
+    margin: 50px auto;
+    text-align: center;
+}
+.option1 h1{
+    color: black;
+}
+.option1 p{
+    color: grey;
+    padding-top: 20px;
+    font-size: 20px;
+}
+.option2{
+    display: flex;
+    justify-content: space-around;
+}
+.option3{
+    width: 20%;
+    height: 380px;
+    border: 1px solid rgb(228, 220, 220);
+    border-top: 1px solid orange;
+    margin-left: 300px;
+}
+.option3 h1{
+    text-align: center;
+    color: black;
+    padding-top: 50px;
+}
+.option3 p{
+    padding-top: 20px;
+    color: orange;
+    font-size: 25px;
+    text-align: center;
+}
+.option3 ul li{
+    list-style: none;
+    display: block;
+    padding-top: 20px;
+    font-size: 20px;
+    padding-left: 30px;
+
+}
+.option3 ul li a{
+    color:orange;
+    text-decoration: none;
+}
+.option3 ul li a:hover{
+   border-bottom:1px solid orange;
+}
+.option3>a{
+    width: 60%;
+    color: black;
+    text-decoration: none;
+    display: block;
+    border: 1px solid orange;
+    padding: 15px 20px;
+    margin-left: 80px;
+    margin-top: 20px;
+    text-align: center;
+}
+.option4{
+    margin-right: 300px;
+    width: 20%;
+    height: 380px;
+    border: 1px solid rgb(228, 220, 220);
+    
+}
+.option4 h1{
+    color: black;
+    padding-top: 50px;
+    text-align: center;
+}
+.option4 p{
+    padding-top: 20px;
+    color: orange;
+    font-size: 25px;
+    text-align: center;
+}
+.option4 ul li{
+    list-style: none;
+    display: block;
+    padding-top: 20px;
+    font-size: 20px;
+    padding-left: 30px;
+
+}
+.option4 ul li a{
+    text-decoration: none;
+    color: orange;
+}
+.option4 ul li:hover a{
+    border-bottom:1px solid orange;
+}
+.option4>a{
+    width: 60%;
+    color: black;
+    text-decoration: none;
+    margin-left: 80px;
+    display: block;
+    border: 1px solid orange;
+    padding: 15px 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+.download{
+    width: 100%;
+    height: 400px;
+    margin: auto;
+    padding: 150px 250px;
+    background-color: rgb(250, 245, 245);
+}
+.downloads{
+    display:flex;
+}
+.download1 h1{
+    width: 80%;
+    padding-bottom: 30px;
+}
+.download1 p{
+    width: 80%;
+    color: rgb(160, 157, 157);
+    font-size: 20px;
+    
+}
+.download a{
+    width: 30%;
+    margin: auto;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+    border: 1px solid orange;
+    padding: 10px 20px;
+
+}
+.end{
+    width: 100%;
+    height: 300px;
+    background-color: rgb(45, 43, 43) ;
+}
+.end1{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+.end1 h1{
+    padding:100px 150px;
+    font-size: 25px;
+}
+.end1 ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 100px 20px;
+    font-size: 20px;
+    padding-right: 60px;
+}
+.end1 ul li a {
+    text-decoration: none;
+    color: white;
+
+}
+.end2{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 150px;
+  
+}
+.end2 p{
+    color: grey;
+}
+.icons{
+    color: orange;
+    display: flex;
+}
